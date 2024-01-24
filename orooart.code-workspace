@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../orooart"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "OrooArt_Web"
+	}
+}
