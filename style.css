@@ -1,13 +1,17 @@
 img{
-    width: 110px;
+    width: 120px;
+}
+
+#logo_holder:hover{
+    transform: scale(2.0);
 }
 
 body{
-    background-image: cross-fade(url("https://images.unsplash.com/photo-1612835362596-5b7b8e5b7b0f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZCUyMGNvbG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"), url("https://images.unsplash.com/photo-1612835362596-5b7b8e5b7b0f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZCUyMGNvbG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"));
+    color: rgb(217, 217, 219);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(154, 245, 245);
-
+    background-position-x: center;
+    background-position-y:center
 }
 
 .nav_divs{
@@ -19,7 +23,7 @@ body{
  }
 
 #logo_holder{
-    background-color: none;
+    background-color: wheat;
     display: flexbox;
     gap: 10px;
 
@@ -29,7 +33,7 @@ body{
     border-radius: 7px;
     background-color: rgb(39, 64, 138);
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 
 #menu_holder{
@@ -45,12 +49,8 @@ body{
    gap: 200px;
 }
 
-h1{
-    text-decoration: rgb(160, 92, 2);
-}
-
 .logos{
-    
+    position: center;
     text-align: center;
     background-color:none;
     padding: 20px;
@@ -161,13 +161,13 @@ h1{
     box-shadow: 0px 0px 10px 0px rgb(255, 255, 255); 
 }
 
-#footer{
-    background-color: black;
+footer{
+    background-color: rgb(61, 59, 59);
     text-align: center;
     text-decoration: aqua;
     padding: 25px 30px;
     height: 75px;
-    border-radius: 10px;
+    width: 100%;
 }
 
 p{
